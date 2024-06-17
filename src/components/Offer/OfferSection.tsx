@@ -4,18 +4,18 @@ import SectionTitle from "../Common/SectionTitle";
 
 const services = [
   {
-    icon: <FaCogs className="h-8 w-8 text-blue-500" />,
+    icon: <FaCogs className="h-8 w-8 text-[#04c8d6]" />,
     title: "Flexibility",
     description:
       "Adjusting software easily to meet evolving needs efficiently.",
   },
   {
-    icon: <FaClock className="h-8 w-8 text-blue-500" />,
+    icon: <FaClock className="h-8 w-8 text-[#04c8d6]" />,
     title: "24hrs Customer Service",
     description: "Providing assistance and support around the clock.",
   },
   {
-    icon: <FaBolt className="h-8 w-8 text-blue-500" />,
+    icon: <FaBolt className="h-8 w-8 text-[#04c8d6]" />,
     title: "Fast & Reliable",
     description: "Swift, consistent service ensuring reliability and rapidity.",
   },

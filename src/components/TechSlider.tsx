@@ -6,14 +6,15 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SectionTitle from "./Common/SectionTitle";
+import react from "../../public/images/tech/react.webp";
 
 const technologies = [
-  { name: "React", logo: "" },
-  { name: "Next.js", logo: "" },
-  { name: "Tailwind CSS", logo: "" },
-  { name: "TypeScript", logo: "" },
-  { name: "Wordpress", logo: "" },
-  { name: "Javascript", logo: "" },
+  { name: "React", logo: react },
+  { name: "Next.js", logo: react },
+  { name: "Tailwind CSS", logo: react },
+  { name: "TypeScript", logo: react },
+  { name: "Wordpress", logo: react },
+  { name: "Javascript", logo: react },
 ];
 
 const TechSlider: React.FC = () => {
@@ -55,29 +56,31 @@ const TechSlider: React.FC = () => {
 
   return (
     <div>
-      <section className="relative z-10 bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28">
+      <section className="relative z-10  bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
             title="Tools & Technologies"
             paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, itaque. Dolorem atque, nulla officia ullam explicabo ducimus."
             center
           />
-          <Slider {...settings}>
-            {technologies.map((tech) => (
-              <div key={tech.name} className="p-4">
-                <div className="flex flex-col items-center rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
-                  <Image
-                    src={tech.logo}
-                    alt={`${tech.name} logo`}
-                    className="mb-4 h-20"
-                  />
-                  <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
-                    {tech.name}
-                  </h2>
+          <div className="mx-10">
+            <Slider {...settings}>
+              {technologies.map((tech) => (
+                <div key={tech.name} className=" p-4">
+                  <div className="  flex flex-col items-center rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
+                    <Image
+                      src={tech.logo}
+                      alt={`${tech.name} logo`}
+                      className="mb-4 h-24"
+                    />
+                    <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+                      {tech.name}
+                    </h2>
+                  </div>
                 </div>
-              </div>
-            ))}
-          </Slider>
+              ))}
+            </Slider>
+          </div>
         </div>
       </section>
     </div>
