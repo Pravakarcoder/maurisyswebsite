@@ -1,57 +1,53 @@
 import Image from "next/image";
+import SectionTitle from "../Common/SectionTitle";
+import medcare from "../../../public/images/about/medcare.webp";
 
 const AboutSectionTwo = () => {
+  const List = ({ text }) => (
+    <p className="mb-5 flex items-center text-lg font-medium text-body-color">
+      {text}
+    </p>
+  );
   return (
-    <section className="py-16 md:py-20 lg:py-28">
-      <div className="container">
-        <div className="-mx-4 flex flex-wrap items-center">
-          <div className="w-full px-4 lg:w-1/2">
-            <div
-              className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
-              data-wow-delay=".15s"
-            >
-              <Image
-                src="/images/about/about-image-2.svg"
-                alt="about image"
-                fill
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
-              />
-              <Image
-                src="/images/about/about-image-2-dark.svg"
-                alt="about image"
-                fill
-                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
-              />
+    <section className="pt-16 md:pt-20 lg:pt-28">
+      <div className="container mx-auto">
+        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
+          <div className="-mx-4 flex flex-wrap items-center">
+            <div className="w-full px-4 lg:w-1/2">
+              <div className="relative max-w-full lg:max-w-none">
+                <Image
+                  src={medcare}
+                  alt="about-image"
+                  width={1000}
+                  height={1000}
+                  className="h-auto max-w-full rounded-md"
+                />
+              </div>
             </div>
-          </div>
-          <div className="w-full px-4 lg:w-1/2">
-            <div className="max-w-[470px]">
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
-                </p>
-              </div>
-              <div className="mb-1">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
-                </p>
+            <div className="w-full px-4 lg:w-1/2">
+              <SectionTitle
+                title="Build website for hospital"
+                paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, eum beatae officiis ab laudantium itaque numquam suscipit recusandae fugit."
+                mb="44px"
+              />
+
+              <div
+                className="mb-12 max-w-[570px] lg:mb-0"
+                data-wow-delay=".15s"
+              >
+                <div className="mx-[-12px] flex flex-wrap">
+                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                    <List text="Premium quality" />
+                    <List text="Tailwind CSS" />
+                    <List text="Use for lifetime" />
+                  </div>
+
+                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                    <List text="Next.js" />
+                    <List text="Backend support" />
+                    <List text="Developer friendly" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>

@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page | Free Next.js Template for Startup and SaaS",
+  title: "Blog - Maurisys Web Design, Web Hosting",
   description: "This is Blog Page for Startup Nextjs Template",
   // other metadata
 };
@@ -32,7 +32,7 @@ const Blog = () => {
           </div>
 
           <div className="-mx-4 flex flex-wrap" data-wow-delay=".15s">
-            <div className="w-full px-4">
+            {/* <div className="w-full px-4">
               <ul className="flex items-center justify-center pt-8">
                 <li className="mx-1">
                   <a
@@ -88,7 +88,7 @@ const Blog = () => {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
