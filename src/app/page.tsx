@@ -2,12 +2,12 @@ import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import AccordionTest from "@/components/AccordionTest";
 import Blog from "@/components/Blog";
-import Brands from "@/components/Brands";
 import WhyChooseUs from "@/components/Choose/WhyChooseUs";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
+import KeyFeatures from "@/components/KeyFeatures";
 import TechSlider from "@/components/TechSlider";
 import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
@@ -31,7 +31,7 @@ export default function Home() {
       <Testimonials />
       <Blog />
       <Contact />
-      <Brands />
+      <KeyFeatures />
       <AccordionTest />
       <TechSlider />
     </>

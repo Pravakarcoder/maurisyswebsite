@@ -34,7 +34,7 @@ export default function AccordionTest() {
         <div className="container mx-auto">
           <SectionTitle
             title="Asked Questions"
-            paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, itaque. Dolorem atque, nulla officia ullam explicabo ducimus."
+            paragraph="Inquired Questions are queries posed to obtain knowledge, understanding, or answers, usually in learning, work, or daily situations."
             center
           />
         </div>

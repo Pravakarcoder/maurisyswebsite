@@ -16,15 +16,15 @@ const PortfolioPage = () => {
     <>
       {" "}
       <Breadcrumb
-        pageName="Portfolio Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Portfolio "
+        description="Check out our portfolio showcasing our finest projects, demonstrating expertise and commitment, offering a glimpse into our software prowess."
       />
       <div className="pt-16 md:pt-20 lg:pt-28">
         <div className="relative z-10 bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28">
           <div className="container mx-auto">
             <SectionTitle
               title="Our Recent Works"
-              paragraph="Here are some of our recent works that act as evidence of our successful status. We have done lots of work for various business institutions."
+              paragraph="Browse through our recent projects, solid proof of our successful track record. We've delivered extensive solutions across diverse industries."
               center
             />
             <RecentWork />

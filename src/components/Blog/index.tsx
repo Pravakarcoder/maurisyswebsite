@@ -6,12 +6,12 @@ const Blog = () => {
   return (
     <section
       id="blog"
-      className="py-16 bg-gray-light dark:bg-bg-color-dark md:py-20 lg:py-28"
+      className="bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28"
     >
       <div className="container">
         <SectionTitle
           title="Blogs and News"
-          paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, voluptatibus nesciunt quos voluptatem."
+          paragraph="Stay updated with the latest blogs and news. Explore current events, trends, and insightful articles on various topics."
           center
         />
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3">

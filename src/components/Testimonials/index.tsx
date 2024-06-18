@@ -1,41 +1,43 @@
 import { Testimonial } from "@/types/testimonial";
 import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
-
+import john from "../../../public/images/testimonials/john.webp";
+import Samuel from "../../../public/images/testimonials/Samuel.webp";
+import Jane from "../../../public/images/testimonials/Jane.webp";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "John Doe",
+    designation: "Founder",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
+      "Exceptional service! I highly recommend it to everyone. Don't miss out on this fantastic opportunity, give it a try!",
+    image: john,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Jane Smith",
+    designation: "CTO",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
+      "This service is a game changer in the industry, offering exceptional support and services. Highly recommended to all!",
+    image: Jane,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Samuel Green",
+    designation: "Co Founder",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
+      "An unparalleled experience, surpassing all others. Exceptional team behind it. Highly recommend this phenomenal service!",
+    image: Samuel,
   },
 ];
 
 const Testimonials = () => {
   return (
-    <section className="relative z-10 py-16 bg-gray-light dark:bg-bg-color-dark md:py-20 lg:py-28">
+    <section className="relative z-10 bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
           title="What Our Clients Say"
-          paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, itaque. Dolorem atque, nulla officia ullam explicabo ducimus."
+          paragraph="This section typically features testimonials or feedback from previous clients, offering insights into their experiences working with the company or service."
           center
         />
 

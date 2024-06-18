@@ -1,6 +1,6 @@
-import { Brand } from "@/types/brand";
+import { Feature } from "@/types/keyfeatures";
 
-const brandsData: Brand[] = [
+const featuresData: Feature[] = [
   {
     id: 6,
     name: "No monthly charge",
@@ -24,4 +24,4 @@ const brandsData: Brand[] = [
   },
 ];
 
-export default brandsData;
+export default featuresData;

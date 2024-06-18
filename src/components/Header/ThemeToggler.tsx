@@ -7,7 +7,8 @@ import { IoSunnySharp } from "react-icons/io5";
 const ThemeToggler = () => {
   const { theme, setTheme } = useTheme();
   const toggleTheme = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
+    // setTheme(theme === "dark" ? "light" : "dark");
+    setTheme(theme === "light" ? "dark" : "light");
   };
 
   return (

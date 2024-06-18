@@ -14,15 +14,15 @@ const AboutSectionOne = () => {
       <div className="container mx-auto">
         <SectionTitle
           title="Our best projects"
-          paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, voluptatibus nesciunt quos voluptatem."
+          paragraph="Our best projects showcase our team's creativity, innovation, and excellence in delivering exceptional results."
           center
         />
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Build website for hospital"
-                paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, eum beatae officiis ab laudantium itaque numquam suscipit recusandae fugit."
+                title="Build website for Medical"
+                paragraph="We build medical websites using Next.js, offering a fast, SEO friendly frontend and a secure, scalable backend."
                 mb="44px"
               />
 
@@ -34,13 +34,13 @@ const AboutSectionOne = () => {
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Premium quality" />
                     <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Secure" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Next.js" />
                     <List text="Backend support" />
-                    <List text="Developer friendly" />
+                    <List text="SEO" />
                   </div>
                 </div>
               </div>

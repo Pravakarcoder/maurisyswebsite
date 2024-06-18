@@ -46,8 +46,8 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="About"
+        description="A dedicated team passionate about crafting innovative solutions, committed to exceeding client expectations, and driving success in the digital landscape."
       />
       <section className="bg-gray-100 py-12 dark:bg-gray-900">
         <div className="container mx-auto px-4">
@@ -79,7 +79,7 @@ const AboutPage = () => {
           <div className="container mx-auto">
             <SectionTitle
               title="Meet Our Team"
-              paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, itaque. Dolorem atque, nulla officia ullam explicabo ducimus."
+              paragraph="Meet the extraordinary individuals behind our success, a diverse team dedicated to innovation, collaboration, and delivering exceptional results."
               center
             />
             <div className="grid grid-cols-1 gap-8 px-6 sm:grid-cols-2 lg:grid-cols-3">

@@ -32,8 +32,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  {`Web Design, Web Hosting, Software Development, Mobile App Development, Graphic Design company `}
                 </p>
                 <div className="flex items-center">
                   <Link
@@ -134,11 +133,11 @@ const Footer = () => {
                 </h2>
                 <ul>
                   {[
-                    { href: "/contact", text: "Web Development" },
-                    { href: "/", text: "Digital Marketing" },
-                    { href: "/about", text: "Mobile App Development" },
-                    { href: "/about", text: "CMS Application" },
-                    { href: "/about", text: "E-Commerce Application" },
+                    { href: "/service", text: "Web Development" },
+                    { href: "/service", text: "Digital Marketing" },
+                    { href: "/service", text: "Mobile App Development" },
+                    { href: "/service", text: "CMS Application" },
+                    { href: "/service", text: "E-Commerce Application" },
                   ].map((link, index) => (
                     <li key={index}>
                       <Link

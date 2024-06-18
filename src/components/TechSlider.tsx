@@ -6,15 +6,18 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SectionTitle from "./Common/SectionTitle";
-import react from "../../public/images/tech/react.webp";
 
+import react from "../../public/images/tech/react.webp";
+import python from "../../public/images/tech/python.webp";
+import vue from "../../public/images/tech/vue.webp";
+import nodejs from "../../public/images/tech/nodejs.webp";
+import bootstrap from "../../public/images/tech/bootstrap.webp";
 const technologies = [
   { name: "React", logo: react },
-  { name: "Next.js", logo: react },
-  { name: "Tailwind CSS", logo: react },
-  { name: "TypeScript", logo: react },
-  { name: "Wordpress", logo: react },
-  { name: "Javascript", logo: react },
+  { name: "Python", logo: python },
+  { name: "Vue js", logo: vue },
+  { name: "Nodejs", logo: nodejs },
+  { name: "Bootstrap", logo: bootstrap },
 ];
 
 const TechSlider: React.FC = () => {
@@ -60,7 +63,7 @@ const TechSlider: React.FC = () => {
         <div className="container">
           <SectionTitle
             title="Tools & Technologies"
-            paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, itaque. Dolorem atque, nulla officia ullam explicabo ducimus."
+            paragraph="Explore our diverse range of tools and technologies, empowering businesses with cutting-edge solutions for enhanced efficiency and performance."
             center
           />
           <div className="mx-10">

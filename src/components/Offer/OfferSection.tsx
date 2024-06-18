@@ -26,7 +26,7 @@ const OfferSection = () => {
       <div className="container mx-auto px-4">
         <SectionTitle
           title="We Gave The Best Offer"
-          paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, itaque. Dolorem atque, nulla officia ullam explicabo ducimus."
+          paragraph="We provide top-notch offers, ensuring unparalleled value and satisfaction for our customers."
           center
         />
         <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

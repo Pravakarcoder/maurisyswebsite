@@ -4,6 +4,11 @@ import { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
 import webdev from "../../../public/images/serives/webdev.avif";
+import appdev from "../../../public/images/serives/appdev.avif";
+import hosting from "../../../public/images/serives/hosting.avif";
+import digitalmarketing from "../../../public/images/serives/digitalmarketing.avif";
+import seo from "../../../public/images/serives/seo.avif";
+import wordpress from "../../../public/images/serives/wordpress.avif";
 import SectionTitle from "@/components/Common/SectionTitle";
 import OfferSection from "@/components/Offer/OfferSection";
 export const metadata: Metadata = {
@@ -20,48 +25,48 @@ const services = [
     image: webdev,
   },
   {
-    title: "Website Development",
+    title: "App Development",
     description:
-      "Creating, designing, and maintaining websites for optimal user experience and functionality.",
-    image: webdev,
+      "Innovative app development services crafting user-friendly solutions with cutting-edge technology.",
+    image: appdev,
   },
   {
-    title: "Website Development",
+    title: "Hosting",
     description:
-      "Creating, designing, and maintaining websites for optimal user experience and functionality.",
-    image: webdev,
+      "Reliable hosting solutions for seamless website performance and uninterrupted online presence, ensuring optimal user experience.",
+    image: hosting,
   },
   {
-    title: "Website Development",
+    title: "Wordpress",
     description:
-      "Creating, designing, and maintaining websites for optimal user experience and functionality.",
-    image: webdev,
+      "Versatile platform for building dynamic websites with customizable features, plugins, and themes for diverse needs and preferences.",
+    image: wordpress,
   },
   {
-    title: "Website Development",
+    title: "SEO",
     description:
-      "Creating, designing, and maintaining websites for optimal user experience and functionality.",
-    image: webdev,
+      "Enhance online visibility and drive organic traffic through strategic optimization techniques, boosting website ranking and audience engagement.",
+    image: seo,
   },
   {
-    title: "Website Development",
+    title: "Digital Marketing",
     description:
-      "Creating, designing, and maintaining websites for optimal user experience and functionality.",
-    image: webdev,
+      "Strategic online promotion to expand brand reach, engage audiences, and drive conversions through various channels and tactics.",
+    image: digitalmarketing,
   },
 ];
 const ServicePage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Service Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Service"
+        description="Discover our range of expert services designed to optimize your digital presence and propel your business towards success."
       />
       <section className="bg-gray-100 py-16 dark:bg-gray-900 md:py-20 lg:py-28">
         <div className="container mx-auto px-4">
           <SectionTitle
             title="Our Services"
-            paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, itaque. Dolorem atque, nulla officia ullam explicabo ducimus."
+            paragraph="Comprehensive software solutions, leveraging cutting-edge technology to streamline processes and drive innovation for your business."
             center
           />
           <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
